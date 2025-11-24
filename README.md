@@ -122,6 +122,7 @@ Used for checking:
           Services
 
 🔹 Step 9 — Install Argo CD using Helm
+
                 helm repo add argo https://argoproj.github.io/argo-helm
                 helm repo update
                 helm install argocd argo/argo-cd -n argocd --create-namespace
