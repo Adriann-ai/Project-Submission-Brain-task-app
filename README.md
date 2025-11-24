@@ -1,18 +1,18 @@
-🚀 CI/CD with AWS CodePipeline + ArgoCD on EKS
+-> CI/CD with AWS CodePipeline + ArgoCD on EKS
 
 A complete GitOps workflow using CodePipeline for CI and Argo CD for CD, deployed on Amazon EKS.
 
-📚 What This Project Covers
+ What This Project Covers
 
-        ✅ CI Pipeline using AWS CodePipeline + CodeBuild
+        1. CI Pipeline using AWS CodePipeline + CodeBuild
         
-        ✅ Containerization using Docker & ECR
+        2. Containerization using Docker & ECR
         
-        ✅ CD Pipeline using Argo CD (GitOps)
+        3. CD Pipeline using Argo CD (GitOps)
         
-        ✅ Kubernetes deployment on Amazon EKS
+        4. Kubernetes deployment on Amazon EKS
         
-        ✅ Full automation from GitHub → ECR → EKS → Argo CD
+        5. Full automation from GitHub → ECR → EKS → Argo CD
 
 🛠️ Step-by-Step Implementation
 🔹 Step 1 — Push Source Code to GitHub
@@ -33,7 +33,7 @@ Build & Test the Docker Image Locally
       docker run -itd --name brain-task -p 3000:80 brain-task:latest
 
 
-👉 Access locally via: http://localhost:3000
+-> Access locally via: http://18.53.23.21:3000
 
 🔹 Step 3 — Create Buildspec for CodeBuild
 buildspec.yaml
