@@ -139,14 +139,14 @@ Click NEW APP
           Fill details:
           
                   Field	Value
-                  Application Name	brain-task-app
-                  Project	default
-                  Sync Policy	Automatic
-                  Repository URL	https://github.com/<your-username>/<your-repo>.git
-                  Revision	HEAD
-                  Path	guestbook-ui (or your manifest folder)
-                  Cluster URL	https://kubernetes.default.svc
-                  Namespace	default
+                  Application Name -	brain-task-app
+                  Project -	default
+                  Sync Policy-	Automatic
+                  Repository URL -	https://github.com/<*********>/<*******>.git
+                  Revision -	HEAD
+                  Path -	manifest
+                  Cluster URL -	https://kubernetes.default.svc
+                  Namespace -	default
 
          Click Create → Sync
 
